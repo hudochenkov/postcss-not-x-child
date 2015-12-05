@@ -1,0 +1,27 @@
+{
+  "name": "postcss-not-x-child",
+  "version": "1.0.0",
+  "description": "PostCSS plugin transform :not-first-child and :not-last-child to :not(:first-child) and :not(:last-child).",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin"
+  ],
+  "author": "Aleks Hudochenkov <aleks@hudochenkov.com>",
+  "license": "MIT",
+  "repository": "hudochenkov/postcss-not-x-child",
+  "bugs": {
+    "url": "https://github.com/hudochenkov/postcss-not-x-child/issues"
+  },
+  "homepage": "https://github.com/hudochenkov/postcss-not-x-child",
+  "dependencies": {
+    "postcss": "^5.0.10"
+  },
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "eslint": "^1.10.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  }
+}
